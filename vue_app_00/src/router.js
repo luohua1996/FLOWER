@@ -21,6 +21,8 @@ import Gift from "./components/product/gift.vue"
 import Login from "./components/product/login.vue"
 import Register from "./components/product/register.vue"
 import Admin from "./components/admin/admin.vue"
+import Header from "./components/index/ssss.vue"
+
 Vue.use(Router)
 export default new Router({
   routes: [
@@ -43,5 +45,6 @@ export default new Router({
     {path:'/Gift',component:Gift},
     {path:'/Login',component:Login},
     {path:'/Register',component:Register},
+    {path:'/Header',component:Header},
   ]
 })
